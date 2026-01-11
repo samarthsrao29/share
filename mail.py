@@ -7,9 +7,14 @@ from datetime import datetime
 
 import os
 
-SENDER_EMAIL = os.environ.get("sharesam63@gmail.com")
-APP_PASSWORD = os.environ.get("pqkgcfmeymhtbnoz")
-RECEIVER_EMAIL = os.environ.get("sharesam63@gmail.com")
+SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
+APP_PASSWORD = os.environ.get("APP_PASSWORD")
+RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL")
+
+print("Sender loaded:", SENDER_EMAIL is not None)
+print("Password loaded:", APP_PASSWORD is not None)
+print("Receiver loaded:", RECEIVER_EMAIL is not None)
+
 
 # ---------- FETCH CURRENT PRICE ----------
 def get_current_price(symbol):
