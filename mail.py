@@ -5,15 +5,18 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from datetime import datetime
 
-import os
+# import os
 
-SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
-APP_PASSWORD = os.environ.get("APP_PASSWORD")
-RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL")
+# SENDER_EMAIL = os.environ.get("sharesam63@gmail.com")
+# APP_PASSWORD = os.environ.get("byxeubelmjkxkfqw")
+# RECEIVER_EMAIL = os.environ.get("sharesam63@gmail.com")
 
-print("Sender loaded:", SENDER_EMAIL is not None)
-print("Password loaded:", APP_PASSWORD is not None)
-print("Receiver loaded:", RECEIVER_EMAIL is not None)
+# ---------- EMAIL CONFIG ----------
+SENDER_EMAIL = "sharesam63@gmail.com"
+APP_PASSWORD = "byxeubelmjkxkfqw"
+RECEIVER_EMAIL = "sharesam63@gmail.com"
+
+# byxe ubel mjkx kfqw
 
 
 # ---------- FETCH CURRENT PRICE ----------
