@@ -13,7 +13,7 @@ from datetime import datetime
 
 # ---------- EMAIL CONFIG ----------
 SENDER_EMAIL = "sharesam63@gmail.com"
-APP_PASSWORD = "byxeubelmjkxkfqw"
+APP_PASSWORD = "hzroluwzffwnfklh"
 RECEIVER_EMAIL = "sharesam63@gmail.com"
 
 # byxe ubel mjkx kfqw
